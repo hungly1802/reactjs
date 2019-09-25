@@ -1,0 +1,172 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+*{}
+
+.img-menu img {
+    width: 100%;
+}
+
+.img-menu span {
+    text-align: center;
+    display: block;
+    padding: 13px;
+    /* background: bisque; */
+    border: 1px solid;
+    /* width: 100%; */
+    border-top: none;
+    color: #cec7c7;
+}
+
+section.img-menu {
+    padding: 50px 0;
+}
+
+.home-form button {
+    width: 30px;
+    border: none;
+    background: white;
+}
+
+.home-form input[type="text"] {
+    padding-left: 6px;
+    border: none;
+    margin-right: 6px;
+}
+
+.home-form span {
+    white-space: pre;
+    padding: 3px 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.home-form {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    /* margin: 0 auto; */
+    display: flex;
+    /* width: 72%; */
+    padding: 11px;
+    background: #ff9800;
+}
+
+.content button {
+    border: none;
+    background: #1e62b5;
+    border-radius: 3px;
+    color: white;
+}
+
+.content span {
+    display: block;
+    font-size: 19px;
+    margin-bottom: 7px;
+    color: #cec7c7;
+}
+
+.content p {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    background: #00154e;
+    padding: 30px;
+    color: white;
+}
+
+section.home {
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+}
+
+.form {
+    /* float: right; */
+    width: 25%;
+    /* position: relative; */
+}
+
+.form button {
+    height: 28px;
+    background: #ff8300;
+    border: none;
+    position: absolute;
+    width: 28px;
+    /* margin-bottom: 12px; */
+    padding: 0;
+    /* transform: translateY(0px); */
+    margin-left: 3px;
+}
+
+.form input[type="text"] {
+    width: 40%;
+    border: 1px solid #fdbf64;
+    padding-left: 11px;
+}
+
+.form p {
+    margin: 0;
+    padding: 0;
+    color: #ff9800;
+    /* display: inline-block; */
+    font-size: 14px;
+}
+
+.form span {
+    color: #c3c0c0;
+    margin-right: 10px;
+}
+
+.menu span {
+    display: block;
+    color: #c3c0cc;
+}
+
+.menu li {
+    float: left;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
